@@ -2,8 +2,8 @@ import whisper
 import cv2
 import os
 
-# Load Whisper model
-model = whisper.load_model("base")  # Use "small" or "large" for better accuracy
+
+model = whisper.load_model("base")  
 
 def extract_audio_from_video(video_path):
     """Extracts text from video audio using Whisper ASR"""
@@ -32,7 +32,7 @@ def extract_frames(video_path, output_folder="data/frames", frame_interval=30):
     cap.release()
     return f"Extracted {frame_count} frames from video."
 
-# Example usage
+
 if __name__ == "__main__":
     video_text = extract_audio_from_video("data/sample_video.mp4")
     print("Extracted Video Text:\n", video_text)
