@@ -2,8 +2,8 @@ import pytesseract
 from PIL import Image
 import os
 
-# Configure Tesseract OCR
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Change path as needed
+
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  
 
 def extract_text_from_image(image_path):
     """Extracts text from an image using Tesseract OCR"""
@@ -15,7 +15,7 @@ def extract_text_from_image(image_path):
         return f"Error processing image: {e}"
 
 
-# Example usage
+
 if __name__ == "__main__":
     image_text = extract_text_from_image("data/sample_image.jpg")
     print("Extracted Image Text:\n", image_text)
