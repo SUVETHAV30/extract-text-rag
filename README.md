@@ -49,6 +49,6 @@ Integrate LLM-based retrieval for improved answer generation.
 Add speech-to-text support for voice-based queries.
 Improve UI with custom themes and interactive elements
 
-![Chatbot Screenshot](screenshots/screenshot.png)
+![Chatbot Screenshot](https://github.com/SUVETHAV30/extract-text-rag/commit/43f6d66773ff22b7bfde644a5f4b3d4f18d0195d/Screenshot.png)
 
 
