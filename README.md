@@ -49,3 +49,6 @@ Integrate LLM-based retrieval for improved answer generation.
 Add speech-to-text support for voice-based queries.
 Improve UI with custom themes and interactive elements
 
+![Chatbot Screenshot](screenshots/screenshot.png)
+
+
