@@ -17,7 +17,7 @@ pdf_text = extract_text_from_pdf(PDF_PATH)
 docx_text = extract_text_from_docx(DOCX_PATH)
 csv_data = load_csv_data(CSV_PATH)
 
-# Convert CSV data into readable text
+
 csv_text = "\n".join([f"{col}: {csv_data[col].astype(str).unique()[:5]}" for col in csv_data.columns])
 
 
