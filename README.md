@@ -49,7 +49,7 @@ Integrate LLM-based retrieval for improved answer generation.
 Add speech-to-text support for voice-based queries.
 Improve UI with custom themes and interactive elements
 
-Demo Video link: https://drive.google.com/file/d/1rxPZ6i6jKCKzv1QKzjKiC7dJRpphtJhw/view?usp=drive_link
+Demo Video link: https://drive.google.com/file/d/1z63y3pTbjKWxCaDmEcBGK8T1PBUdB4Yr/view?usp=drive_link
 
 
 
